@@ -67,7 +67,7 @@ meter {
     -moz-user-modify: read-write;
     -webkit-user-modify: read-write;
     overflow-wrap: break-word;
-    -webkit-line-break: after-white-space;
+    word-wrap: break-word;
 }
 
 /* apply back the draggable feature - exist only in Chromium and Safari */
@@ -112,4 +112,3 @@ li {
 span {
     color: red;
 }
-    

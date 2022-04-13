@@ -131,15 +131,17 @@ form {
 }
 
 .search {
-        padding:8px 15px;
-		background:rgba(50, 50, 50, 0.2);
-		border:0px solid #dbdbdb;
+    padding:8px 15px;
+	background:#ffffff;
+	border:0px solid #dbdbdb;
+    border-radius: 20px;
 }
 
 .button {
     position: relative;
+    height: auto;
     padding: 6px 15px;
-    left:-8px;
+    left:-4px;
     border:1px solid #dbdbdb;
     background-color:#53bd84;
 	color:#fafafa;
@@ -151,6 +153,7 @@ form {
 }
 
 .header-search {
-    margin-left: 800px;
+    margin-left: 900px;
     padding: 70px 25px 70px;
+    
 }

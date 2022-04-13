@@ -94,7 +94,6 @@ li {
     float: left;
     margin-top: 38px;
     margin-left: 90px;
-    border: 1px solid black;
     font-family: 'Sanchez';
     font-style: normal;
     font-weight: 400;
@@ -116,13 +115,42 @@ li {
 
 .list li {
     margin-top: 68px;
-    margin-left: 50px;
+    margin-left: 90px;
     margin-bottom: 65px;
-    border: 1px solid black;
     font-family: 'Sanchez';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 46px;
     color: #000000;
+}
+
+form {
+    width: 400px;
+    height: 40px;
+}
+
+.search {
+        padding:8px 15px;
+		background:rgba(50, 50, 50, 0.2);
+		border:0px solid #dbdbdb;
+}
+
+.button {
+    position: relative;
+    padding: 6px 15px;
+    left:-8px;
+    border:1px solid #dbdbdb;
+    background-color:#53bd84;
+	color:#fafafa;
+}
+
+.button:hover {
+    background-color: #fafafa;
+    color: #fafafa;
+}
+
+.header-search {
+    margin-left: 800px;
+    padding: 70px 25px 70px;
 }

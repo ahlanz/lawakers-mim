@@ -104,7 +104,7 @@ li {
 }
 
 .header {
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
     height: 180px;
     position: relative;

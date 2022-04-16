@@ -78,6 +78,7 @@ meter {
 body {
     font-family: 'shancez', sans-serif;
     font-size: 14px;
+    margin: 0 auto;
 }
 
 li {
@@ -163,33 +164,14 @@ form {
     height: auto;
 }
 
-.cover-img {
+.cover .cover-img {
     width: 100%;
     height: auto;
-    background-size: cover;
-    margin: 0 auto;
-    position: absolute;
-}
-
-.cover-container {
-    top:0;
-    border: 1px solid black;
-}
-
-.atas {
-    font-family: 'Russo One', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 120px;
-    color: black;
-    border: 1px solid black;
-}
-
-.atas {
-    text-align: center;
+    background-size: cover;;
     position: relative;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    z-index: 1;
+}
+
+.cover .cover-img .text {
+    position: absolute;
+    border: 1px solid black;
 }
